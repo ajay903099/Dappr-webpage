@@ -1,0 +1,232 @@
+body{
+    margin:0;
+
+  }
+  .navbar{
+      display: flex;
+      background-color: #6F6AF7;
+      margin: auto;
+      color: white;
+      font-weight: 400;
+      margin-bottom: 40px;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 25px;
+      padding-right: 25px;
+      box-sizing: border-box;
+      position: fixed;
+      top: 0px;
+      width: 100vw;
+  
+  }
+  .logo{
+     font-family: 'Delius Unicase', cursive;
+      font-size: 32px;
+  }
+  .navbar-elements ul{
+    display:flex;
+    list-style:none;
+    align-items:center;
+  }
+  .navbar-elements ul li{
+     margin-right:20px;
+  
+  }
+  .navbar-elements ul li select{
+    background:transparent;
+    border:none;
+    color:white;
+    margin:0;
+  }
+  .navbar-elements ul li input{
+      border-radius:20px;
+      border:none;
+      padding:10px 10px;
+      
+  
+  }
+  .navbar-elements ul li :last-of-type{
+    position: relative;
+  }
+  .navbar-elements ul li img{
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    height: 16px;
+  }
+  .nav-hamburger img{
+    height: 25px;
+  }
+.card-container{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.card{
+    width: 21%;
+    padding:10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-1{
+    background: #929DFF;
+}
+.card-2{
+    background: #734CF2;
+}
+.card-3{
+    background: #D288FF;
+}
+.card-4{
+    background: #000000;
+}
+.container{
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    margin-left:60px;
+    margin-right:60px;
+    width: 90vw;
+    height: 60vh;
+}
+.left-container img{
+    height: 50vh;
+    margin-top: 5px;
+
+}
+
+.right-container{
+    background-color: #E5D8FF;
+    padding: 30px ;
+    border-radius: 20px;
+    height: 45vh;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+.right-container p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #6F7373;
+}
+.help{
+    border-radius: 100%;
+    bottom: 20px;
+    right: 60px;
+    position: fixed;
+    height: 120px;
+    width:120px
+
+}
+.help img{
+    height: 70px;
+    width: 70px;
+}
+.container-1{
+    background-color: #483EFF;
+    display: flex;
+    height: 60vh;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    margin-right: 120px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+.left-container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.left-container1 button{
+    padding: 25px 40px;
+    border-radius: 4px;
+    border-style: solid;
+    color: white;
+    border-color: white;
+    background:transparent;
+    font-weight: 700;
+    width:100%;
+    
+    
+}
+.left-container1 button:first-of-type{
+    color:black;
+    background: #BCE0F6;
+
+
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.32);
+}
+.right-container1{
+    width: 70%;
+    background-color: white;
+    height: 50vh;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.info{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+.info1{
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color:#04285A;
+    
+
+}
+.info1 span{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+.next{
+    color: white;
+    background: black;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 4px;
+    margin:5px ;
+    padding: 10px 20px;
+    
+}
+.next img{
+    height: 10px;
+    width:10px;
+}
+.social-icons{
+    position: sticky;
+    top:80px;
+    float: right;
+}
+.social-icons img{
+    display: block;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-bottom: 1px;
+    margin-right: 2px;
+}
